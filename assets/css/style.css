@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/wild_oliva.png);
+}
+
+.navbar_container {
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 75px;
+	background: grey;
+}
+
+.navbar_name {
+	float: left;
+	height: 75px;
+	width: 150px;
+	background: #4aaaa5;
+}
+
+.navbar_menu {
+	clear: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
