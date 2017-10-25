@@ -2,6 +2,23 @@ body {
     background-image: url(../images/wild_oliva.png);
 }
 
+h1 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
 .navbar_container {
 	position: fixed;
   	top: 0;
@@ -27,15 +44,26 @@ body {
     font-size: 17px;
 }
 
-h1 {
-	color: white;
+.about_me {
+	position: relative;
+	width: 650px;
+    background: black;
+    margin: 150px 50px 50px 50px;
+
 }
 
-p {
-	color: white;
+.connect_me {
+	position: absolute;
+	width: 270px;
+	background: black;
 }
 
-img {
-    float: left;
-    margin: 0 0 10px 10px;
+.footer_container {
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
